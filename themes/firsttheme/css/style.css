@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: #cad;
 }
 
 * {
@@ -30,6 +30,9 @@ body {
 
 .main {
     flex: 1 0 auto;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .header, .footer {
@@ -74,7 +77,8 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 2px solid #222;
+    min-height: 5em;
 }
 
 .footer a {
@@ -190,4 +194,15 @@ blockquote {
     width: 100%;
     height: 100px;
     background-color: #0f0;
+}
+
+/* Presentation */
+
+img.presentation {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 10%;
+    float: left;
+    margin-right: 2em;
 }
