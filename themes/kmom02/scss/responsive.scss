@@ -1,0 +1,45 @@
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .title {
+        h1 {
+            margin-left: 20px;
+        }
+
+        p {
+            margin-left: 20px;
+        }
+    }
+
+    .logo {
+        img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+
+    .nav {
+        li {
+            margin: 10px 10px 0;
+        }
+    }
+}
+
+@media (max-width: 665px) {
+    .main .presentationimage {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo {
+        img {
+            width: calc(100vw - 250px);
+            height: calc(100vw - 250px);
+        }
+    }
+}
