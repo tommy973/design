@@ -1,6 +1,7 @@
 ---
 Title: Testsidan
 Description: En sida för att testa olika saker
+Hidden: true
 ---
 
 En testsida
