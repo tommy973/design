@@ -25,6 +25,25 @@
             margin: 10px 10px 0;
         }
     }
+
+    .landingpage {
+        grid-template-columns: 1fr;
+    }
+
+    .landingpage h1,
+    .css-style,
+    .html-style,
+    .js-style,
+    .php-style,
+    .python-style,
+    .git-style,
+    .sqlite-style {
+        grid-column: span 1;
+    }
+
+    .tech-menu {
+        display: none;
+    }
 }
 
 @media (max-width: 665px) {
