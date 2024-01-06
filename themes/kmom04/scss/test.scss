@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&family=Modern+Antiqua&display=swap');
+
+p {
+    color: #242424;
+    line-height: 1.4rem;
+    font-size: 1.2em;
+    margin-bottom: 1.96rem;
+    width: 80rem;
+
+    .old-fashioned {
+        font-family: 'Martel';
+        font-weight: 500;
+    }
+    
+    .modern {
+        font-family: 'Modern Antiqua';
+    }
+    
+    .worst-ever {
+        font-family: "Comic Sans MS";
+    }
+}
+
+
+

@@ -1,0 +1,22 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import 'header';
+@import 'body';
+@import 'footer';
+
+@import 'typography';
+@import 'base';
+@import 'technologies';
+@import 'alignments';
+@import 'analysis';
+@import 'responsive';
+
+@import 'blockquotes';
+@import 'code';
