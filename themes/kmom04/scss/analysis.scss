@@ -43,69 +43,89 @@
     }
 }
 
-.font-table {
-    // border: 1px solid $border-color;
-
-    thead {
-        font-family: $main-font;
-
-        tr {
-            height: 40px;
-        }
-    }
-    
-    tbody {
-        font-family: $main-font;
-
-        tr {
-            height: 60px;
-        }
-    }
+thead {
+    font-family: $main-font;
 
     tr {
-        display: flex;
-
-        td:first-child {
-            border: none;
-        }
+        height: 40px;
     }
+}
 
-    .font-table-head {
-        background-color: $table-head-color;
+tbody {
+    font-family: $main-font;
 
-        td {
-            color: $alt-text-color;
-            height: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-left: 1px solid $alt-text-color;
-        }
+    tr {
+        height: 60px;
     }
+}
 
-    tr:nth-child(2n) {
-        background-color: $table-body-color;
+tr {
+    display: flex;
+
+    td:first-child {
+        border: 0;
     }
+}
 
-    .weburlhead {
-        flex: 1;
-
-    }
-
-    .weburl {
-        flex: 1;
-        margin: auto;
-    }
+.font-table-head {
+    background-color: $table-head-color;
 
     td {
-        // border: 1px solid $border-color;
-        flex: 2;
-        height: 60px;
+        color: $alt-text-color;
+        height: 40px;
         display: flex;
-        // justify-content: center;
+        justify-content: center;
         align-items: center;
-        border-left: 1px solid $border-color;
+        border-left: 1px solid $alt-text-color;
+    }
+}
+
+tr:nth-child(2n) {
+    background-color: $table-body-color;
+}
+
+.weburlhead {
+    flex: 1;
+
+}
+
+.weburl {
+    flex: 1;
+    margin: auto;
+}
+
+td {
+    // border: 1px solid $border-color;
+    flex: 2;
+    height: 60px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    border-left: 1px solid $border-color;
+}
+
+.embed-document {
+    position: relative;
+    padding-bottom: 42%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 
-    
+    color-analysis-image {
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        width: 90vw;
+        // height: 100%;
+    }
 }
+
+
