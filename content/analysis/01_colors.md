@@ -23,8 +23,9 @@ För att utföra färganalysen använde jag mig först av ColorZilla, för att k
 ###Resultat
 
 #####Elgiganten.se
-
-<img src="%base_url%?/image/elgiganten_start_small.png" class="color-analysis-image" alt="Elgiganten">
+<div class="embed-document">
+    <img src="%base_url%?/image/elgiganten_start_small.png" class="color-analysis-image" alt="Elgiganten">
+</div>
 
 <table class="color-table">
     <tr>
@@ -43,8 +44,9 @@ För att utföra färganalysen använde jag mig först av ColorZilla, för att k
 </table>
 
 #####Nordic Nest.se
-
-<img src="%base_url%?/image/nordicnest_start_small.png" class="color-analysis-image" alt="Nordic Nest">
+<div class="embed-document">
+    <img src="%base_url%?/image/nordicnest_start_small.png" class="color-analysis-image" alt="Nordic Nest">
+</div>
 
 <table class="color-table">
     <tr>
@@ -61,8 +63,9 @@ För att utföra färganalysen använde jag mig först av ColorZilla, för att k
 </table>
 
 #####Komplett.se
-
-<img src="%base_url%?/image/komplett_start_small.png" class="color-analysis-image" alt="Komplett">
+<div class="embed-document">
+    <img src="%base_url%?/image/komplett_start_small.png" class="color-analysis-image" alt="Komplett">
+</div>
 
 <table class="color-table">
     <tr>
