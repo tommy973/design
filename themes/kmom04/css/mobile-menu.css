@@ -8,15 +8,15 @@
 }
 
 .nav ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em 0;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* padding: 1em 0; */
     list-style: none;
 }
 
-.nav ul li {
+/* .nav ul li {
     padding: 0 1em;
-}
+} */
 
 .nav a, .nav-toggle {
     color: #333;
