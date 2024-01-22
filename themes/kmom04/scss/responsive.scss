@@ -1,3 +1,26 @@
+@media (max-width: 1000px) {
+    .nav {
+        ul {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        li {
+            margin-top: 30px;
+        }
+    }
+
+    .main,
+    .footer {
+        width: 95%;
+    }
+
+    .gallery-grid {
+        // display: grid;
+        grid-template-columns: 300px 300px;
+        justify-content: space-evenly;
+    }
+}
+
 @media (max-width: 767px) {
     .header {
         flex-direction: column;
@@ -51,6 +74,29 @@
         float: none;
         display: block;
         width: 100%;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 350px;
+
+        .single-picture {
+            width: 350px;
+            height: 392px;
+        }
+
+        figcaption {
+            text-align: center;
+            margin-top: 340px;
+            font-family: $photo-font;
+            font-size: x-large;
+        }
+
+        .photographer {
+            position: absolute;
+            bottom: 10px;
+            right: 15px;
+            font-size: xx-small;
+        }
     }
 }
 
