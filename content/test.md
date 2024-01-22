@@ -8,6 +8,42 @@ En testsida
 ==================
 
 
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+<a href="%base_url%/image/sheep.jpg" target="_blank">
+    <picture>
+        <source media="(min-width: 668px)" srcset="%base_url%/image/sheep.jpg">
+        <img src="%base_url%/image/sheep.jpg&w=667" alt="A sheep">
+    </picture>
+</a>
+
+
+![Movement](%base_url%?/image/movement.png)
+
+![Movement](%base_url%?/image/movement.png?q=50&save-as=jpg)
+
+![Movement](%base_url%?/image/movement.png?q=40&save-as=jpg)
+
+![Movement](%base_url%?/image/movement.png?q=30&save-as=jpg)
+
+![Movement](%base_url%?/image/movement.png?q=20&save-as=jpg)
+
+![Movement](%base_url%?/image/movement.png?q=10&save-as=jpg)
+
+<img src="%base_url%?/image/movement.jpg?w=500&f=colorize,100,-20,-20,0" alt="Movement">
+
+<img src="%base_url%?/image/movement.jpg?w=500&f=negate" alt="Movement">
+
+<img src="%base_url%?/image/movement.jpg?w=500&f=mean_removal" alt="Movement">
+
+<img src="%base_url%?/image/movement.jpg?w=500&convolve=draw" alt="Movement">
+
+
+
+
 <div class="firstelement">Första lådan: 600px bred, 100px hög, svart bakgrund och content-box</div>
 
 <div class="secondelement">Andra lådan: 100% bred, 100px hög, blå bakgrundsfärg och content-box</div>
