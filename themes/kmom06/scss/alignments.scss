@@ -1,0 +1,21 @@
+table {
+    th, td {
+        color: $text-color;
+    }
+
+    a {
+        color: $link-color;
+    }
+}
+
+ul {
+    color: $text-color;
+}
+
+li {
+    color: $text-color;
+
+    a {
+        color: $link-color;
+    }
+}

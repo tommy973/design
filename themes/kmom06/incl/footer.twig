@@ -1,0 +1,26 @@
+<div class="footer">
+    <div class="footercontent">
+        <div class="footerinfo">
+            <p>
+                Detta är en helt vanlig footer som ännu inte innehåller speciellt mycket.
+            </p>
+        </div>
+        <div class="social">
+            <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
+            {% for social in pages["_meta"].meta.social %}
+            <a href="{{ social.url }}" title="{{ social.title }}" role="button">
+                {% if config.session.theme == "dark" and social.url == "?action=theme" %}
+                    <i class="fas fa-sun fa-lg" aria-hidden="true"></i>
+                {% else %}
+                    <i class="{{ social.icon }}" aria-hidden="true"></i>
+                {% endif %}
+                <span class="sr-only">{{ social.title }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
+<script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>
+<script src="{{ theme_url }}/../shared//js/responsive-navbar.js" type="text/javascript"></script>

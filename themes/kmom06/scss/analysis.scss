@@ -1,0 +1,160 @@
+.analysis-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+
+    .menu-item {
+        margin-bottom: 5px;
+        color: $text-color;
+        flex: 1;
+        margin-left: 10px;
+    }
+
+    .menu-item:first-of-type {
+        margin-left: 0;
+    }
+
+    a {
+        margin: 5px;
+        font-family: $main-font;
+        font-size: larger;
+        text-decoration: none;
+        color: $link-color;
+    }
+}
+
+.color-table {
+    border-spacing: 4px;
+    border-collapse: separate;
+    margin-top: 20px;
+
+    .single-color {
+        height: 50px;
+        width: 50px;
+        border: 1px solid $border-color;
+    }
+}
+
+thead {
+    font-family: $main-font;
+
+    tr {
+        height: 40px;
+    }
+}
+
+tbody {
+    font-family: $main-font;
+
+    tr {
+        height: 60px;
+    }
+}
+
+tr {
+    display: flex;
+
+    td:first-child {
+        border: 0;
+    }
+}
+
+.font-table-head {
+    background-color: $table-head-color;
+
+    td {
+        color: $alt-text-color;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid $alt-text-color;
+    }
+}
+
+tr:nth-child(2n) {
+    background-color: $table-body-color;
+}
+
+.weburlhead {
+    flex: 2;
+
+}
+
+.weburl {
+    flex: 2;
+    margin: auto;
+}
+
+td {
+    flex: 3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid $border-color;
+}
+
+.embed-document {
+    position: relative;
+    padding-bottom: 42%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .color-analysis-image {
+        width: 80vw;
+    }
+}
+
+.analysis-content {
+    margin-left: 75px;
+    margin-right: 75px;
+
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+
+    h1 {
+        grid-column: 1 / 9;
+    }
+
+    h3 {
+        grid-column: 1 / 9;
+    }
+
+    h5 {
+        grid-column: 2 / 9;
+    }
+
+    .embed-document {
+        grid-column: 2 / 8;
+    }
+
+    p {
+        grid-column: 2 / 8;
+    }
+
+    ul {
+        grid-column: 2 / 9;
+    }
+
+    .color-table {
+        grid-column-start: 2;
+    }
+
+    .font-table {
+        grid-column: 2 / 9;
+    }
+
+    .loadingtimes {
+        grid-column: 2 / 9;
+    }
+}

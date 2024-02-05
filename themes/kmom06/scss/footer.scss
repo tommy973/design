@@ -1,0 +1,37 @@
+.footer {
+    margin-top: auto;
+    background-color: $alternative-color;
+}
+
+.footercontent {
+    width: 950px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerinfo {
+    flex: 4;
+    border-right: 1px solid $border-color;
+    margin: 5px;
+
+}
+
+.social {
+    flex: 1;
+    margin: 20px 5px 5px;
+
+    display: flex;
+    flex-direction: row;
+
+    i {
+        flex: 1;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $text-color;
+    }
+}

@@ -1,0 +1,23 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <h1>Analyser</h1>
+        <div class="analysis-menu">
+            {% for page in pages("analysis")|sort_by("time") if not page.hidden %}
+            <div class="menu-item box">
+                <a href="{{ page.url }}">{{ page.title }}</a>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="analysis-content">
+            {{ content }}
+        </div>
+    </div>
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
