@@ -54,7 +54,7 @@ Jag använder webbtjänsten **Pagespeed Insights** för att mäta laddningstiden
 
 #####Laddningstider
 
-<div class="embed-document">
+<div class="embed-document loadingtimes">
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSqWTRfBvNALsmmNaxTZ4GpRNc1PG7fgRNnmVtmn9IJ2y7HSr7Mptyomc5m5apjNGZUPWotViql-iNF/pubhtml?gid=477722291&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 </div>
 
